@@ -12,12 +12,14 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
-        <Hero />
-        <Features />
-        <UseCases />
-        <TechStack />
-        <BookDemo />
-        <CallToAction />
+        <div className="mx-auto max-w-screen-2xl">
+          <Hero />
+          <Features />
+          <UseCases />
+          <TechStack />
+          <BookDemo />
+          <CallToAction />
+        </div>
       </main>
       <Footer />
     </div>

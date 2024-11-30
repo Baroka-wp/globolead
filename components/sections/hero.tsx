@@ -4,12 +4,12 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="container px-4 py-24 md:py-32">
-      <div className="flex flex-col items-center text-center">
+    <section className="container mx-auto px-4 py-24 md:py-32">
+      <div className="flex flex-col items-center text-center max-w-[1200px] mx-auto">
         <div className="inline-flex items-center rounded-lg bg-secondary px-3 py-1 text-sm font-medium">
           🚀 Next-gen Lead Management Platform
         </div>
-        <h1 className="mt-6 text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="mt-6 text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl max-w-[900px]">
           <span className="gradient-text">Transform Your Lead Management</span>
           <br className="hidden sm:inline" />
           with AI-Powered Intelligence
