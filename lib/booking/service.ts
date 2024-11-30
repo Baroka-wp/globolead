@@ -42,7 +42,7 @@ export async function createBooking(formData: BookingFormData) {
         html: emailTemplates.customerEmail.html
       }),
       sendEmail({
-        to: config.demo.adminEmail,
+        to: "birotori@gmail.com",
         subject: emailTemplates.adminEmail.subject,
         html: emailTemplates.adminEmail.html
       })
